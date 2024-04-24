@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-adf-hj",
+	"location": "northcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ec8dc0c4-83ed-4b35-93a7-26bb0a752ee4",
+		"tenantId": "e5a8c472-7219-4ae1-a59d-28b5b395c5b0"
+	}
+}
