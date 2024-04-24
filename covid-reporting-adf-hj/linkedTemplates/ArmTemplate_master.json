@@ -35,7 +35,7 @@
 			"type": "string",
 			"defaultValue": "@{linkedService().sourceBaseURL}"
 		},
-		"tr_ingest_popularion_data_properties_typeProperties_scope": {
+		"tr_population_data_arrived_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/44e8f8f0-3ec3-4769-b667-8848fe20beae/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportingsahj"
 		},
@@ -105,8 +105,8 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"tr_ingest_popularion_data_properties_typeProperties_scope": {
-						"value": "[parameters('tr_ingest_popularion_data_properties_typeProperties_scope')]"
+					"tr_population_data_arrived_properties_typeProperties_scope": {
+						"value": "[parameters('tr_population_data_arrived_properties_typeProperties_scope')]"
 					}
 				}
 			},
